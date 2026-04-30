@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3b82f6; /* Tailwind blue-500 */
+  --color-primary-hover: #2563eb; /* Tailwind blue-600 */
+}
+
+/* Base styles for a premium look */
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans antialiased;
+  }
+}
